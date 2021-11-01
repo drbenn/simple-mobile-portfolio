@@ -184,9 +184,15 @@ p {
 
 
 .social-media-contact {
-    margin-top: 2rem;
-    max-height: 100px;
+    margin: 2rem .3rem;
+    max-height: 65px;
+    transition: all .3s ease-in-out; 
+    border-radius: 15px;
+}
 
+.social-media-contact:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 8px rgba(0, 77, 112, 0.377); 
 }
 
 a { 
